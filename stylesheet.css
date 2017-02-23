@@ -19,15 +19,38 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+header > img {
+  width: 100px
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+  font-family: Arial, sans-serif;
   line-height: 1.5;
+  background-color: gainsboro;
 }
 ol, ul {
-  list-style: none;
+  list-style: circle;
 }
 blockquote, q {
   quotes: none;
